@@ -3,12 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Telephone number Validator</title>
 </head>
 <body>
     <div class="main-container">
         <img src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" alt="">
-
+        <h1 class="title">Telephone Number Validator</h1>
+        <div id="telephone-container">
+            <div class="camera"></div>
+            <form action="" class="form">
+                <div class="screen">
+                    <p>Enter a Phone Number:</p>
+                    <input type="text" name="text" id="user-input">
+                    <div id="results-div"></div>
+                </div>
+                <div class="button-container">
+                    <button type="submit" id="check-btn">Check</button>
+                    <button type="submit" id="clear-btn">Clear</button>
+                </div>
+            </form> 
+        </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
