@@ -26,14 +26,15 @@ checkBtn.addEventListener("click", (e) => {
         alert("Please provide a phone number")
     }
     else {
-        if(validPhoneNumber(userInput.value)){
+        if (validPhoneNumber(userInput.value)) {
             output.innerHTML += `Valid US number: ${userInput.value}`
+            // Add line break
+            output.innerHTML += "<br>"
         }
-        else{
+        else {
             output.innerText += `Invalid US number: ${userInput.value}`
+            // Add line break
+            output.innerHTML += "<br>"
         }
     }
-
-    // Add line break
-    output.innerHTML += "<br>"
 })
